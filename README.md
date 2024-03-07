@@ -1,6 +1,12 @@
 # Résolveur de Sudoku
 
-Un résolveur de sudokus fait dans le cadre d'un projet de certification FreeCodeCamp.
+Un résolveur de sudokus Frontend pour la mise en forme et Backend pour la logique.
+
+Il a été fait dans le cadre d'un projet de certification FreeCodeCamp.
+[Backend Development and Apis](https://www.freecodecamp.org/certification/Manatoa/back-end-development-and-apis)
+[Quality Assurance](https://www.freecodecamp.org/certification/Manatoa/quality-assurance-v7)
+[JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/Manatoa/javascript-algorithms-and-data-structures)
+[Build a Sudoku Solver](https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/sudoku-solver)
 
 ## Fonctionnalités
 
