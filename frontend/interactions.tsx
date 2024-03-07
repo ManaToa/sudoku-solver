@@ -7,8 +7,7 @@ import { POSTrequest } from '../../utils/requests'
 import { getRandomSudoku } from './functions'
 
 export default function SudokuInteractions() {
-  const { sudoku, setSudoku, serverResponse, setServerResponse } =
-    useContext(Context)
+  const { sudoku, setSudoku, serverResponse, setServerResponse } = useContext(Context)
 
   const [cellCoordinate, setCellCoordinate] = useState<string>('')
   const [cellValue, setCellValue] = useState<string>('')
@@ -24,8 +23,7 @@ export default function SudokuInteractions() {
       const url = '/sudoku/solve'
       const result = await POSTrequest(url, stuff)
 
-      if (result.error)
-        return setServerResponse(JSON.stringify(result, null, 2))
+      if (result.error) return setServerResponse(JSON.stringify(result, null, 2))
       setSudoku(result.solution)
     } catch (error) {
       setServerResponse('Une erreur est survenue')
