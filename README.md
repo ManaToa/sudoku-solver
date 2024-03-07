@@ -21,7 +21,7 @@ Il a été fait dans le cadre d'un projet de certification FreeCodeCamp.
 - Le serveur a 2 EndPoints :
   - **/solve**
   - **/check**
-- Suite des explication à venir ...
+- Suite des explications à venir ...
   
 ## Technologies utilisées
 
