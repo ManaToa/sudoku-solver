@@ -18,9 +18,7 @@ export default function Sudoku() {
   const [serverResponse, setServerResponse] = useState<string>('')
 
   return (
-    <Context.Provider
-      value={{ sudoku, setSudoku, serverResponse, setServerResponse }}
-    >
+    <Context.Provider value={{ sudoku, setSudoku, serverResponse, setServerResponse }}>
       <div className='bg-lightColor shadow-xl p-3 lg:p-6 rounded-md w-[13.5rem] sm:w-[24rem] md:w-[28rem] md:min-h-[26rem]'>
         <SudokuGrid />
         <SudokuInteractions />
